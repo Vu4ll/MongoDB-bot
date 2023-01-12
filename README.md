@@ -10,6 +10,6 @@
 
 ![Screenshot](https://media.discordapp.net/attachments/754389062856474685/1000481069813993584/Screenshot_20220723-221410_Discord.jpg)
 ## Ulaşım
-- Bana ulaşabileceğiniz tüm platformları [buradan](https://vu4ll.ml) bulabilirsiniz.
+- Bana ulaşabileceğiniz tüm platformları [buradan](https://vu4ll.xyz/) bulabilirsiniz.
 
 ![card](https://discord.c99.nl/widget/theme-3/269480080823025664.png)
