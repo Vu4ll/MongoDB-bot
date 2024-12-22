@@ -6,8 +6,17 @@
 - `config.json`daki gerekli yerleri doldurunuz.
 - Mongoose bağlantısı için [bu yazı](https://medium.com/@thearkxd/node-js-projeleri-i%C3%A7in-mongodb-atlas-connection-linki-alma-5d955bbe5ae6) işinizi görecektir.
 
-![Screenshot](https://cdn.discordapp.com/attachments/754389062856474685/1320507073766887485/Screenshot_20220723-221410_Discord.png?ex=6769d98c&is=6768880c&hm=f29d68dce546e495ca31d6f334563771fb7eebf8dd2fde4a8ca4c505664c2d88&)
+<div align="center">
+  
+  ![Screenshot](https://cdn.discordapp.com/attachments/754389062856474685/1320507073766887485/Screenshot_20220723-221410_Discord.png?ex=6769d98c&is=6768880c&hm=f29d68dce546e495ca31d6f334563771fb7eebf8dd2fde4a8ca4c505664c2d88&)
+
+</div>
+
 ## Ulaşım
 - Bana ulaşabileceğiniz tüm platformları [buradan](https://vu4ll.xyz/) bulabilirsiniz.
 
-![card](https://discord.c99.nl/widget/theme-3/269480080823025664.png)
+<div align="center">
+  
+  ![card](https://discord.c99.nl/widget/theme-3/269480080823025664.png)
+
+</div>
