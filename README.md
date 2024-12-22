@@ -1,5 +1,3 @@
-![Mongoose](https://cdn.discordapp.com/attachments/801488282999455814/815588807197458462/1614521885177.png)
-
 ## Bu repository Discord.js v14 için hazırlanmıştır.
 - Başlamadan önce. Bu projeyi kullanmak için Node.js sürümünüz 16.9 veya üstü olmalıdır.
 - Elimden geldiğince [Mongoose](https://www.npmjs.com/package/mongoose) anlatmaya çalıştım. Mongoose database örnekleri içermektedir.
