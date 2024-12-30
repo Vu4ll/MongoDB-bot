@@ -13,7 +13,7 @@
 </div>
 
 ## Ulaşım
-- Bana ulaşabileceğiniz tüm platformları [buradan](https://vu4ll.xyz/) bulabilirsiniz.
+- Bana ulaşabileceğiniz tüm platformları [buradan](https://vu4ll.com.tr/) bulabilirsiniz.
 
 <div align="center">
   
