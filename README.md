@@ -3,7 +3,7 @@
 - Elimden geldiğince [Mongoose](https://www.npmjs.com/package/mongoose) anlatmaya çalıştım. Mongoose database örnekleri içermektedir.
 - Komut yükleyicisi olarak [bu proje](https://github.com/Vu4ll/slash-handler/) kullanılmıştır. Ve tamamen eğik çizgi (/) komutları ile hazırlanmıştır.
 - Örnekler `cmds/examples.js` dosyasında mevcuttur.
-- **[config.js]()** dosyasındaki gerekli yerleri doldurunuz.
+- **[config.js](https://github.com/Vu4ll/MongoDB-bot/blob/main/config.js)** dosyasındaki gerekli yerleri doldurunuz.
 - Mongoose bağlantısı için [bu yazı](https://medium.com/@thearkxd/node-js-projeleri-i%C3%A7in-mongodb-atlas-connection-linki-alma-5d955bbe5ae6) işinizi görecektir.
 
 <div align="center">
