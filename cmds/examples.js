@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require("discord.js");
+const { SlashCommandBuilder, MessageFlags, Client, ChatInputCommandInteraction, EmbedBuilder } = require("discord.js");
 const model = require("../models/example"); // Models klasöründeki dosyamızı tanımladık
 
 module.exports = {
@@ -26,6 +26,11 @@ module.exports = {
     ),
   // Eğik çizgi komutumuz için gerekli ayarlarımızı yaptık
 
+  /**
+    * @param { Client } client
+    * @param { ChatInputCommandInteraction } interaction
+    * @param { EmbedBuilder } embed
+    */
   run: async (client, interaction, embed) => {
     // Komutun kullanıldığı sunucudaki veriyi çektik ve tanımladık
     const data = await model.findOne({
@@ -40,7 +45,7 @@ module.exports = {
       if (data)
         return interaction.reply({
           content: `Bu sunucuda kayıtlı bir veri bulunmaktadır`,
-          ephemeral: true,
+          flags: MessageFlags.Ephemeral,
         });
 
       new model({
@@ -52,7 +57,7 @@ module.exports = {
 
       interaction.reply({
         content: `Veritabanına **${veri}** kaydı başarıyla eklendi.`,
-        ephemeral: true,
+        flags: MessageFlags.Ephemeral,
       }); // Ve kanala mesajımızı gönderdik
     } else if (interaction.options.getSubcommand() === "veri") {
       // Yukarıdaki data tanımı kullanarak veriyi alabiliriz
@@ -61,12 +66,12 @@ module.exports = {
       if (!data)
         return interaction.reply({
           content: `Kayıtlı veri bulunamadı.`,
-          ephemeral: true,
+          flags: MessageFlags.Ephemeral,
         });
 
       interaction.reply({
         content: data.toString(), // Object bir değer verecektir. Sadece bir veriyi almak için `data.EXAMPLE` yazmak yeterlidir.
-        ephemeral: true,
+        flags: MessageFlags.Ephemeral,
       });
     } else if (interaction.options.getSubcommand() === "sil") {
       // Yukarıdaki data tanımı kullanarak veriyi silebiliriz
@@ -75,7 +80,7 @@ module.exports = {
       if (!data)
         return interaction.reply({
           content: `Kayıtlı veri bulunamadı.`,
-          ephemeral: true,
+          flags: MessageFlags.Ephemeral,
         });
       // Veri varsa yapılacak işlem
       else if (data) {
@@ -84,7 +89,7 @@ module.exports = {
           // Ve kanala mesajımızı gönderdik
           interaction.reply({
             content: `Kayıt veritabanından silindi`,
-            ephemeral: true,
+            flags: MessageFlags.Ephemeral,
           })
         );
       }

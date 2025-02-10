@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { MONGO } = require("../config.json");
+const { MONGO } = require("../config.js");
 
 mongoose.connect(MONGO, {
   useUnifiedTopology: true,

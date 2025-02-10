@@ -1,19 +1,20 @@
 {
-  "name": "MongoDB-bot",
+  "name": "mongodb-bot",
   "description": "Discord.js botları için Mongoose veritabanı (database) kullanım örnekleri.",
   "main": "index.js",
+  "author": "Vu4ll",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.0.2",
-    "mongoose": "^6.4.5",
-    "fs": "^0.0.2",
+    "discord.js": "^14.17.3",
     "@discordjs/rest": "^1.0.0",
-    "discord-api-types": "^0.36.2"
+    "discord-api-types": "^0.36.2",
+    "fs": "^0.0.2",
+    "mongoose": "^6.4.5"
   },
   "engines": {
-    "node": "16.x"
-  },
-  "license": "MIT"
+    "node": "18.x"
+  }
 }
