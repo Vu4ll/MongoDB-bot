@@ -8,7 +8,7 @@
 
 <div align="center">
   
-  ![Screenshot](https://cdn.discordapp.com/attachments/754389062856474685/1338465095595855903/image.png?ex=67ab2e42&is=67a9dcc2&hm=64ef5ee74f363177ac30070066a817c96ca5914b5c2dbfff9e0d07056cf8cd50&)
+  ![Screenshot](./image/screenshot.png)
 
 </div>
 
